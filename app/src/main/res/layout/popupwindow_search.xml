@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+
+    <RelativeLayout
+    android:id="@+id/top_center_serarch"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="8dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/search_box_bg"
+    android:visibility="visible"
+    >
+
+    <ImageView
+    android:id="@+id/iv_serarchlist"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:src="@drawable/ic_search"
+    android:scaleType="center"
+    android:layout_marginLeft="1dp"
+    />
+
+    <EditText
+    android:id="@+id/et_search"
+    android:layout_toRightOf="@id/iv_serarchlist"
+    android:layout_width="310dp"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="center_vertical"
+    android:hint="请输入关键词"
+    android:textColorHint="#8c8c8c"
+    android:inputType="text"
+    android:singleLine="true"
+    android:textColor="#8c8c8c"
+    android:textSize="14sp"
+    />
+
+    <ImageView
+    android:id="@+id/iv_searchs_clear"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:src="@drawable/ic_search_clear"
+    android:visibility="visible"
+    />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

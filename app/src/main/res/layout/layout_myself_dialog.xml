@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#0e2438"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:text="提醒"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/msg"
+            android:text="恭喜您,验证码发送成功"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:text="确定"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:layout_width="66dp"
+            android:layout_height="30dp"
+            android:background="#ff1a20ff"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

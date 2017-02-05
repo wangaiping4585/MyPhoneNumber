@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    >
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:orientation="vertical"
+         android:background="#fcfcfc"
+         >
+         <TextView
+             android:id="@+id/sendnumber"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="1px"
+             android:visibility="invisible"
+             />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <TextView
+                 android:id="@+id/poptitle"
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:textSize="18sp"
+                 android:text="名字"
+                 android:layout_marginLeft="170dp"
+                 />
+         </LinearLayout>
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/line"
+             />
+
+         <TextView
+             android:id="@+id/bianji"
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:textSize="16sp"
+             android:text="编辑"
+             />
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/line"
+             />
+         <TextView
+             android:id="@+id/delete"
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:layout_marginTop="5dp"
+             android:textSize="16sp"
+             android:text="删除"
+             />
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/line"
+             />
+         <TextView
+             android:id="@+id/sendmessage"
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:layout_marginTop="5dp"
+             android:textSize="16sp"
+             android:text="短信"
+             />
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/line"
+             />
+         <TextView
+             android:id="@+id/mail"
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:layout_marginTop="5dp"
+             android:textSize="16sp"
+             android:text="分享"
+             />
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/line"
+             />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <TextView
+                 android:id="@+id/popcanle"
+                 android:layout_width="match_parent"
+                 android:layout_height="30dp"
+                 android:textSize="18sp"
+                 android:text="取消"
+                 android:paddingLeft="170dp"
+                 />
+         </LinearLayout>
+
+
+         </LinearLayout>
+
+</RelativeLayout>

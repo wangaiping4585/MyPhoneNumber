@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/add_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F5F7F6"
+        >
+
+        <ImageView
+            android:id="@+id/add_clean"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/clear"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+
+            />
+
+        <TextView
+            android:id="@+id/font"
+            android:layout_toRightOf="@id/add_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="新建联系人"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/add_finsh"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:text="完 成"
+            android:textColor="#3E9EE6"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+
+            />
+
+        </RelativeLayout>
+
+       <RelativeLayout
+           android:id="@+id/add_center"
+           android:layout_below="@id/add_top"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="45dp"
+           >
+           <LinearLayout
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               >
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text="姓名:"
+                   />
+               <EditText
+                   android:id="@+id/add_name"
+                   android:layout_width="250dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_height="wrap_content"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="25dp"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text="手机:"
+                   />
+               <EditText
+                   android:id="@+id/add_number"
+                   android:layout_width="250dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_height="wrap_content"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="25dp"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text="公司:"
+                   />
+               <EditText
+                   android:id="@+id/add_gongsi"
+                   android:layout_width="250dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_height="wrap_content"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="25dp"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text="地址:"
+                   />
+               <EditText
+                   android:id="@+id/add_dizhi"
+                   android:layout_width="250dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_height="wrap_content"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="25dp"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text="备注:"
+                   />
+               <EditText
+                   android:id="@+id/add_beizhu"
+                   android:layout_width="250dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_height="wrap_content"
+                   />
+           </LinearLayout>
+
+
+           </LinearLayout>
+       </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

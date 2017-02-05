@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7F6"
+    >
+
+    <LinearLayout
+        android:id="@+id/caozuo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="操作"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="多选(0)"
+            android:textSize="20sp"
+            android:layout_marginLeft="65dp"
+            android:textColor="#1EC63D"
+            android:layout_gravity="center_vertical"
+            />
+
+        </LinearLayout>
+
+</LinearLayout>
